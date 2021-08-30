@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Name Modifier.exe" version="1.1.5.6" publicKeyToken="25d7e43e65a1e2e0" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="ScreencastOutput.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Name Modifier" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Name Modifier.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Name Modifier.exe" size="362496">
+      <assemblyIdentity name="Name Modifier" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>VROAcN+acy/apUppfeIiLPHK7+c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ScreencastOutput.ico" size="17590">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qTolQenTI7v/IwkQwcUgO7saI8E=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=GilbertsPC\Mike &amp; Trish" issuerKeyHash="bf4ea831c1316399b3e24d51065c4a7c48cb1c50" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Rikt5e3J7XPeYLg5CiIuKOjGOBA=</DigestValue></Reference></SignedInfo><SignatureValue>HQnVaeyumTTxrREMh5NnTw37GNKAMAnOY124ZI6jGVrKj/75zHwdNPV/zJMQHrRCloKVsbv1v7+EQ32Cq1/MLcKim+9ws17A+YjCydGRPupXOJYMQDq6TbCkdSPYpgonV0o/kusGQzey/ufddzdtD8O46fUfD0R38ey53U2T9FY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>kz1luLGUM6yDLnnAEY4p3IKCsspSk895woAF9nSKiAcmPglUsWxrasCiYM7wZSMFDqmNm4Qduj+0g3rdlb1BsGh/LkvyysjyBlab+CcKmAt69TMUl/BjVMWCiKVw6KKQYFdz/PubZzcqOqfRa1krM9vNiIvDosl7pC8wQrMPAEM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1038c6e8282e220a39b860de73edc9ede52d2946" Description="" Url=""><as:assemblyIdentity name="Name Modifier.exe" version="1.1.5.6" publicKeyToken="25d7e43e65a1e2e0" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GilbertsPC\Mike &amp; Trish</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>QvW1XUMJn4J2QTvNF008wiiKa6I=</DigestValue></Reference></SignedInfo><SignatureValue>DmPO4HMUwBzKRplrtu4aASbWEEc57aoit5y2+DC10zyoOQIJLpPnlc7v6l6LG1ipwHzkNhFp1h0kx8KxtJGBQfaW8yEnYeYIqvWTqHJWUw/dur+NX/HHR7USgiFfEzBUX4g8Ib1B0AQqAOllluj1DyY+cHHv6m/75fv4Tc0RVeo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>kz1luLGUM6yDLnnAEY4p3IKCsspSk895woAF9nSKiAcmPglUsWxrasCiYM7wZSMFDqmNm4Qduj+0g3rdlb1BsGh/LkvyysjyBlab+CcKmAt69TMUl/BjVMWCiKVw6KKQYFdz/PubZzcqOqfRa1krM9vNiIvDosl7pC8wQrMPAEM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQBLqtXixxvYpJ/5ec9ktYLzANBgkqhkiG9w0BAQUFADA5MTcwNQYDVQQDHi4ARwBpAGwAYgBlAHIAdABzAFAAQwBcAE0AaQBrAGUAIAAmACAAVAByAGkAcwBoMB4XDTExMDMxOTAyMTIzNVoXDTEyMDMxODA4MTIzNVowOTE3MDUGA1UEAx4uAEcAaQBsAGIAZQByAHQAcwBQAEMAXABNAGkAawBlACAAJgAgAFQAcgBpAHMAaDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAkz1luLGUM6yDLnnAEY4p3IKCsspSk895woAF9nSKiAcmPglUsWxrasCiYM7wZSMFDqmNm4Qduj+0g3rdlb1BsGh/LkvyysjyBlab+CcKmAt69TMUl/BjVMWCiKVw6KKQYFdz/PubZzcqOqfRa1krM9vNiIvDosl7pC8wQrMPAEMCAwEAATANBgkqhkiG9w0BAQUFAAOBgQA4xJhR+pBZm7n0siM6M8ioVG9KAFTzoAKMXUQ4rKLIparUZPdn5X7D8udkvYKA60q62TvV9UDZepbiVqN6UoslbHN6cpSckFiAVD4vyclh6nsmOpuW/Ng+yCSBaz29x3uW2c0/XGAVmsWYr2QSQLAVzE4k+PBisIQ4MIFf7LRb9Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
